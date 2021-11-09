@@ -1,0 +1,382 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/* ESTILO GLOBAL */    
+.div-transparent {
+    position: absolute;
+    height: 15px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.button-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.active {
+    border-bottom: 2px solid #C4C411;
+}
+
+section {
+    background: white;
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+}
+
+.h-67 {
+    height: 67%;
+}
+
+.h-33 {
+    height: 33%;
+}
+
+.h-45 {
+    height: 49%;
+}
+
+.h-15 {
+    height: 15%;
+}
+
+.h-85 {
+    height: 85%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.font-lg {
+    font-size: 30px;
+}
+/*-------------------------------------------------------------------------------------*/
+
+/*ESTILOS SLIDER */
+.slider{
+    width: 80px;
+    height: 100vh;
+    position: absolute;
+    background-color: #373C40;
+}
+.slider__img {
+    display: flex;
+    justify-content: center;
+}
+.slider__img img {
+    width: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+/*ESTILOS HEADER */
+.header {
+    height: 65px;
+    color: white;
+    margin-left: 80px;
+    padding: 0px 20px 0px 20px;
+    height: 100%;
+}
+.header__logo img {
+    width: 80px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.header__profile {
+    margin-top: 15px;
+    width: 170px;
+}
+
+.header__profile-me span{
+    font-size: 10px;
+}
+
+.header__profile-me span:first-child{
+    font-weight: 600;
+}
+.header__nav--profile-options img{
+    transform: rotate(90deg);
+    cursor: pointer;
+    width: 20px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+/*ESTILOS CONTENIDO */
+.parent{
+    height: 100vh;
+}
+
+.parent header{
+    height: 11%;
+    background: #3E7083;
+}
+
+.main{
+    background: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    height: 89%;
+    padding-left: 80px;
+    overflow: scroll;
+}
+.content {
+    margin-left: 80px !important;
+    height: 100%;
+    max-width: 1400px;
+}
+
+table thead {
+    font-size: 19px;
+    height: 40px;
+}
+
+table thead tr th, td{
+    padding: 8px 12px 10px 8px; 
+    text-align: center;
+}
+
+table thead tr th, td span{
+    font-size: 12px !important;
+    padding-right: 10px; 
+}
+
+table tbody tr td{
+    max-width: 40px;
+}
+
+table tbody tr td img{
+    margin-bottom: 2px;
+    cursor: pointer;
+    float: right;
+}
+
+table tbody {
+    font-size: 10px;
+}
+
+.content__options {
+    display: flex;
+    width: 65.666667% !important;
+}
+
+.content__options-ul{
+    width: 100%;
+    overflow: scroll;
+    margin-right: 30px;
+}
+
+.content__options-ul::-webkit-scrollbar{
+    display: none;
+}
+
+.content__options ul{
+    display: flex;
+}
+
+.content__options ul li{
+    list-style: none;
+    padding: 0px 35px 0px 35px;
+}
+
+.content__options ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    height: 40px;
+    display: flex;
+    min-width: max-content;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.content__options ul li a span{
+    font-weight: 600;
+}
+
+/* ESTILOS CARD DE LOS PRODUCTOS*/
+.content__products {
+    max-height: 85%;
+    overflow: scroll;
+}
+
+.content__products::-webkit-scrollbar{
+    display: none;
+}
+
+.content__products-card{
+    margin: 12px 0px 12px 0px !important;
+    height: 40%;
+    cursor: pointer;
+}
+.content__products-card img{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__products-card  span {
+    font-size: 12px !important;
+    font-weight: 600;
+}
+
+.content__car-max{
+    max-height: 270px !important;
+    overflow: scroll;
+}
+
+.content__car-max::-webkit-scrollbar {
+    display: none;
+}
+
+.content__car--footer {
+    border-top: 2px solid #ddd;
+    width: 90%;
+    margin: 0 auto;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.content__car--footer-total {
+    margin-right: 35px;
+}
+
+.content__car--footer-totalnum {
+    color: #C4C411;
+}
+
+.content__car--footer h5{
+    font-weight: 600;
+}
+
+.content__down-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: -5px !important;
+    margin-left: -5px !important;
+}
+
+.content__down-2 {
+    margin-right: -5px !important;
+    margin-left: -5px !important;
+}
+
+.content__down-2-methodspay  {
+    width: 75% !important;
+    margin: 0;
+}
+
+.content__down-2-methodspay div  {
+    background: white;
+    width: 32%;
+    height: 46% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    height: 80px;
+}
+
+.content__down-2__pay {
+    color:#C4C411;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #373C40;
+    padding: 0;
+    margin-top: 10px !important;
+    cursor: pointer;
+    width: 25% !important;
+}
+
+.discount {
+    height: 80px !important;
+    margin: 0 !important;
+    margin-top: 10px !important;
+    background: white;
+    height: 95% !important;
+    width: 49% !important;
+}
+
+
+
+/*-------------------------------------------------------------------------------------*/
+
+/*MEDIA QUERYS */
+
+@media (max-width: 1230px){
+    .content__options ul li a{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 992px){
+    .content {
+        padding: 0;
+    }
+    .content__2 {
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .content__2 section {
+        height: 49%;
+    }
+
+    .content__options {
+        width: 100% !important;
+        height: 50%;
+    }
+
+    .content__down {
+        height: 20%;
+    }
+    .content__products-card{
+        height: auto;
+    }
+
+    .content__products-card img{
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .content__down-1-car {
+        height: 100%;
+    }
+
+    .content__down-2 {
+        flex-direction: column;
+    }
+
+    .content__down-2-methodspay {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+        padding: 0 !important;
+    }
+
+    .content__down-2__pay {
+        width: 100% !important;
+        padding: 20px;
+    }
+
+    .discount {
+        height: 120px !important;
+    }
+}
