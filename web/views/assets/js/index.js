@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 $(".content__products-card").on("click", function(){
     let id = $(this).data("id")
-    $.get(`api/product.php?m=g&id=${id}`).then(res => {
+    $.get(`./api/product.php?m=g&id=${id}`).then(res => {
         let response = JSON.parse(res)
         if(response.success){
             let product = response.data
