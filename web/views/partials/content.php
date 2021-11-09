@@ -1,5 +1,5 @@
 <?php 
-        require_once "../../controllers/ProductController.php";
+        include "./../controllers/ProductController.php";
         $products = ProductController::getProducts();
     ?>
     

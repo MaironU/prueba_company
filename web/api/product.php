@@ -1,5 +1,5 @@
 <?php
-    include "../controllers/ProductController.php";
+    require_once "../controllers/ProductController.php";
 
     switch($_GET["m"]){
         case 'g':
