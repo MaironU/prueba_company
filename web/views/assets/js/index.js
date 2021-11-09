@@ -1,4 +1,4 @@
-let url_base = "http://localhost/prueba_compamny"
+let url_base = "https://globalsystemcompany.herokuapp.com"
 let shipping_cart = []
 
 $(document).ready(function(){
@@ -38,7 +38,7 @@ function showProductsInCar(){
                 <tr>
                     <td>
                         <span>${elem.cantidad}</span>
-                        <img src="${url_base}/views/assets//imgs/icons/more.png" alt="" width="22px" onclick="incrementQuantity(${elem.id})"> 
+                        <img src="${url_base}/views/assets/imgs/icons/more.png" alt="" width="22px" onclick="incrementQuantity(${elem.id})"> 
                         <img src="${url_base}/views/assets/imgs/icons/less.png" alt="" width="22px" onclick="decrementQuantity(${elem.id})"> 
                     </td>
                     <td>
