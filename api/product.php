@@ -1,5 +1,5 @@
 <?php
-    include "https://globalsystemcompany.herokuapp.com/controllers/ProductController.php";
+    include "http://globalsystemcompany.herokuapp.com/controllers/ProductController.php";
 
     switch($_GET["m"]){
         case 'g':

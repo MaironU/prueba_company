@@ -1,5 +1,5 @@
 <?php
-    include "https://globalsystemcompany.herokuapp.com/models/Product.php";
+    include "http://globalsystemcompany.herokuapp.com/models/Product.php";
 
     class productController
     {
