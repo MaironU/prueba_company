@@ -1,5 +1,5 @@
 <?php
-    include "/models/Product.php";
+    include "models/Product.php";
 
     class productController
     {
