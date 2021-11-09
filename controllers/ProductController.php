@@ -1,5 +1,5 @@
 <?php
-    include "/Applications/MAMP/htdocs/prueba_compamny/models/Product.php";
+    include "/models/Product.php";
 
     class productController
     {
