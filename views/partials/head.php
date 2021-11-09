@@ -9,5 +9,7 @@
     
     <title>Company</title>
 </head>
-
+<?php 
+    define('PROY_RUTA', __DIR__);
+?>
 <body>

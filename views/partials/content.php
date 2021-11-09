@@ -1,5 +1,5 @@
     <?php 
-        include "https://globalsystemcompany.herokuapp.com/controllers/ProductController.php";
+        include __DIR__."/controllers/ProductController.php";
         $products = ProductController::getProducts();
     ?>
     
