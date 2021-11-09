@@ -1,5 +1,5 @@
 <?php
-    require_once "http://globalsystemcompany.herokuapp.com/models/Conexion.php";
+    require_once "Conexion.php";
 
     class Product
     {

@@ -1,5 +1,5 @@
-    <?php 
-        include "http://globalsystemcompany.herokuapp.com/controllers/ProductController.php";
+<?php 
+        include "controllers/ProductController.php";
         $products = ProductController::getProducts();
     ?>
     
