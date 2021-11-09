@@ -330,6 +330,10 @@ table tbody {
     .main {
         padding-left: 0px;
     }
+
+    .header {
+        margin-left: 0px !important;
+    }
 }
 
 @media (max-width: 1230px){
