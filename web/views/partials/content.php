@@ -73,7 +73,7 @@
                             </div>
                         <?php }?>
                         <div class="content__products-card col-3">
-                            <img src="<?php echo $ruta ?>/imgs/icons/arrow.png" alt="">
+                            <img src="<?php echo $ruta ?>/imgs/icons/arrow.svg" alt="">
                         </div>
                     </div>
                 </section>
@@ -103,13 +103,13 @@
                             <img width="80px" src="<?php echo $ruta ?>/imgs/icons/visa.png" alt="">
                         </div>
                         <div>
-                            <img width="80px" src="<?php echo $ruta ?>/imgs/icons/pngwing.com.png" alt="">
+                            <img width="80px" src="<?php echo $ruta ?>/imgs/icons/mastercard.png" alt="">
                         </div>
                         <div>
                             <img width="80px" src="<?php echo $ruta ?>/imgs/icons/uber-eats.jpg" alt="">
                         </div>
                         <div>
-                            <img width="80px" src="<?php echo $ruta ?>/imgs/icons/pngwing.com.png" alt="">
+                            <img width="60px" src="<?php echo $ruta ?>/imgs/icons/debito.png" alt="">
                         </div>
                         <div class="font-lg">
                             +
