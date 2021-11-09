@@ -321,6 +321,17 @@ table tbody {
 
 /*MEDIA QUERYS */
 
+
+@media (max-width: 576px){
+    .slider{
+        display: none;
+    }
+
+    .main {
+        padding-left: 0px;
+    }
+}
+
 @media (max-width: 1230px){
     .content__options ul li a{
         font-size: 11px;
